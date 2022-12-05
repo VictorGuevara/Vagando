@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estidlos_generales.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Iniciar sesión</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Correo O No. De Teléfono">
+                        <i class="uil uil-envelope-alt icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Contraseña">
+                        <i class="uil uil-key-skeleton-alt icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Recordarme</label>
+                        </div>
+
+                        <a href="#" class="text">¿Has olvidado tu contraseña?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Inicia sesión ahora">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">¿No es un miembro?
+                        <a href="#" class="text signup-link">Regístrate ahora</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Formulario de registro de turista -->
+            <div class="form signup">
+                <span class="title">Registro</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Nombre Completo">
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="No. Teléfono Celular">
+                        <i class="uil uil-mobile-android"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Correo O No. De Teléfono">
+                        <i class="uil uil-envelope-alt icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Contraseña">
+                        <i class="uil uil-key-skeleton-alt icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirmar Contraseña">
+                        <i class="uil uil-key-skeleton-alt icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" value="Registrarme">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">¿Ya es un miembro?
+                        <a href="#" class="text login-link">Iniciar sesión</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
