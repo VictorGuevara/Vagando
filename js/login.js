@@ -45,6 +45,11 @@ login.addEventListener('click', () => {
 /*                                                                  */
 /* ---------------------------------------------------------------- */
 
+btnLogin.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.location.href = '../vistas/p_auntenticado.html';
+});
+
 btn_invitado.addEventListener('click', (event) => {
     event.preventDefault();
     window.location.href = '../vistas/p_invitado.html';
